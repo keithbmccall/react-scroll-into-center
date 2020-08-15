@@ -1,0 +1,38 @@
+{
+  "name": "react-scroll-into-center",
+  "version": "0.1.1",
+  "main": "index.js",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^2.0.5",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.0"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "scripts": {
+    "prettier": "prettier --write './**/*.js'",
+    "format": "yarn prettier"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keithmccall/react-scroll-into-center.git",
+    "baseUrl": "https://github.com/keithmccall/react-scroll-into-center"
+  },
+  "homepage": "https://github.com/keithmccall/react-scroll-into-center#readme",
+  "author": {
+    "name": "Keith McCall",
+    "email": "keithcodes@gmail.com"
+  },
+  "keywords": [
+    "carousel",
+    "scroll",
+    "center",
+    "scroll into view",
+    "smooth scroll into view",
+    "scrollIntoView",
+    "scroll behavior",
+    "react"
+  ]
+}

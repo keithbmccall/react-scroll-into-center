@@ -1,0 +1,11 @@
+html,
+html * {
+  box-sizing: border-box;
+}
+
+#smooth-scroll-container {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  box-sizing: border-box;
+}
