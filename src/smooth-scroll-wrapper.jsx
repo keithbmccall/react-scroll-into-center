@@ -1,13 +1,14 @@
 import React, { Children, cloneElement, memo, useEffect, useRef } from "react";
+import PropTypes from "prop-types"
 import "./ss.css";
 
-const smoothScrollIntoCenter = (selectedDayRef, selectedDayContainerRef) => {
+const smoothScrollIntoCenter = (childRef, containerRef) => {
   if (
-    selectedDayContainerRef?.current?.getBoundingClientRect &&
-    selectedDayRef?.current
+    containerRef?.current?.getBoundingClientRect &&
+    childRef?.current
   ) {
-    const el = selectedDayRef.current;
-    const container = selectedDayContainerRef.current;
+    const el = childRef.current;
+    const container = containerRef.current;
     const ease = (k) => 0.5 * (1 - Math.cos(Math.PI * k));
 
     // define timing method
